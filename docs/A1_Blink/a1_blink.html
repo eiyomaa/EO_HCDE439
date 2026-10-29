@@ -6,7 +6,7 @@
 
     <title>Eileen Ong's Student's HCDE 439 Physical Computing Page!</title>
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="A_style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>Eileen Ong's Assignment 1: Blink!</h1>
@@ -20,7 +20,7 @@
 
     <h2>Schematic of circuit</h2>
     <div class="header">
-      <img src="./media/A1_Schematic.jpg" />
+      <img src="./A1_media/A1_Schematic.jpg" />
       <p> In this schematic, it shows three LEDs that are each connected to 
           pins 13, 12, and 11 on the Arduino board each LED has its own resistor 
           of approximately 150 ohms each. The LEDs also share the same common ground connection or the "GND"</p>
@@ -28,7 +28,7 @@
     
     <h3>Resistor Calculations</h3>
     <div class="header">
-      <img src="./media/A1_ResistanceCalc.jpg" />
+      <img src="./A1_media/A1_ResistanceCalc.jpg" />
       <p>This is my calculations using Ohm's law to find the
          appropiate resistor value for each LED. Based of my calculations each resistor
          should have a value of 150 ohms per LED to limit the current and prevent burning out the LEDS or Arduino board.
@@ -38,7 +38,7 @@
     
     <h2>Circuit</h2>  
     <div class="header">
-      <img src="./media/A1_Circuit.jpg" />
+      <img src="./A1_media/A1_Circuit.jpg" />
       <p>This is my completed physical model of the circuit. It is using a breadboard,
          three LEDs, three resistors, and many jumper wires. Each LED has resistor and from the resistor is connected to a digital pin.
          Though for the red LED on the left furthest side it has a wire connecting the LED to the common ground or "GND" pin,
@@ -92,7 +92,7 @@ void loop() {
 
     <h2>Finished Product</h2>  
     <div class="header">
-      <img src="./media/GIF_A1_BlinkVID.gif" />
+      <img src="./A1_media/GIF_A1_BlinkVID.gif" />
       <p>This GIF shows the final product of my circuit and Arduino program.
         Each LED blinks one at a time, staying on for about a second before turning off
         and the next LED turning on. The sequence then continuously repeats. 
@@ -107,7 +107,7 @@ void loop() {
     <h3>Question 1: Draw a graph where the X axis is time and Y is voltage across the LEDs.
        Draw a line for each of your 3 LEDs. </h3>
     <div class="header">
-      <img src="./media/A1_VoltGraph.jpg" />
+      <img src="./A1_media/A1_VoltGraph.jpg" />
       <p> - This graph shows the voltage of each LED and how it changes as it switches on and off during the sequence.</p>
     
 
@@ -115,7 +115,7 @@ void loop() {
     <h3>Question 2: How many LEDs could you blink independently with your Arduino?
        How much current would that draw? </h3>
        <div class="header">
-      <img src="./media/A1_PosLEDCalc.jpg"/>
+      <img src="./A1_media/A1_PosLEDCalc.jpg"/>
       <p> - This picture shows the calculations I made to estimate how many LEDs could blink independently with the Arduino board.
         I calculated an estimate of 10 LEDs by taking the estimated amount of resitance needed for each LED and plugged it into
         a equation to solve for the current, which is voltage divided by the resistance ( 3 volts / 150 ohms), leaving us with 0.02 Amps or 20mA.
@@ -138,7 +138,7 @@ void loop() {
        provide details on how/when, as well as a brief reflection. If no, you can either
        leave this question black, or provide other information if you'd like. </h3>
 
-       <p> - For this assignment, I did not AI tools to complete this assignment. However, I did google some html syntax for my code snippet.
+       <p> - For this assignment, I did not use AI tools to complete this assignment. However, I did google some html syntax for my code snippet.
         I also used some notes I have from my HCDE 310 and 438 classes for some other HTML and CSS syntax.
        </p>
 

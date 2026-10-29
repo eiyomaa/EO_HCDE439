@@ -49,7 +49,7 @@ h2 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   gap: 1em;
   margin-top: 2em;
 }
@@ -65,9 +65,14 @@ h2 {
 
 .assignment img {
   aspect-ratio: 1;
+  width: 100%;
   object-fit: cover;
 }
 
 .assignment p {
   margin-top: 0.5em;
+}
+
+.assignment h2 {
+  min-height: 2.5em;
 }
